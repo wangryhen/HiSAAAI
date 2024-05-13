@@ -7,22 +7,21 @@ The official repository of the paper [HSFTalk: Hierarchical Speech Feature-based
     | 
     <a href="https://wangryhen.github.io/HSFTalk.github.io/">Project Page</a>
     |
-    <a href="https://wangryhen.github.io/HSFTalk_Anonymous">Code</a> 
+    <a href="https://github.com/wangryhen/HSFTalk_Anonymous">Code</a> 
   </b>
 </p> 
 
 <!-- Colab notebook demonstration: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Egq0_ZK5sJAAawShxC0y4JRZQuVS2X-Z?usp=sharing) -->
 
   <p align='center'>  
-    <img src='/images/frame.pdf' width='1000'/>
+    <img src='/paper_images/framework.svg' width='1000'/>
   </p>
 
-Given an identity source, <strong>EDTalk</strong> synthesizes talking face videos characterized by mouth shapes, head poses, and expressions consistent with mouth GT, pose source and expression source. These facial dynamics can also be inferred directly from driven audio. Importantly, <strong>EDTalk</strong> demonstrates superior efficiency in disentanglement training compared to other methods.
-
-
+Given a speech signal as input, our framework <strong>HSFTalk</strong> can generate realistic 3D talking heads through the Hierarchical Speech Features to Sparse Landmarks <strong>(HSF2S)</strong> module and the Sparse Landmarks to Dense Landmarks Displacements <strong>(S2D)</strong> module.
 
 ## TODO
 - [x] **Release Arxiv paper.**
+- [x] **Release Project Page.**
 - [ ] **Release code. (Once the paper is accepted)**
 - [ ] **Release Pre-trained Model. (Once the paper is accepted)**
 
@@ -31,26 +30,30 @@ Given an identity source, <strong>EDTalk</strong> synthesizes talking face video
 ## Citation	
 
 ```
-@article{tan2024edtalk,
-  title={EDTalk: Efficient Disentanglement for Emotional Talking Head Synthesis},
-  author={Tan, Shuai and Ji, Bin and Bi, Mengxiao and Pan, Ye},
-  journal={arXiv preprint arXiv:2404.01647},
-  year={2024}
+@article{2024HSFTalk,
+  title={HSFTalk: Hierarchical Speech Feature-based Landmark Displacements for 3D Talking Head Animation},
+  author={Zhang, Zixing and Wang, Bin and Zhao, Huanand Schuller, Björn W},
+  year={2024},
+  eprint={},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV}
 }
 ```
 
+
 ## Acknowledgement
 <!-- Some code are borrowed from following projects:
-* [LIA](https://github.com/wyhsirius/LIA)
-* [DPE](https://github.com/OpenTalker/DPE)
+* [SpeechFormer++](https://github.com/wyhsirius/LIA)
+* [Learning Landmarks](https://github.com/OpenTalker/DPE)
 * [EAT](https://github.com/yuangan/EAT_code)
 * [PD-FGC](https://github.com/Dorniwang/PD-FGC-inference)
 * [Wav2Lip](https://github.com/Rudrabha/Wav2Lip)
 * [FOMM video preprocessing](https://github.com/AliaksandrSiarohin/video-preprocessing) -->
 
-Some figures in the paper is inspired by:
-* [PD-FGC](https://arxiv.org/abs/2211.14506)
-* [DreamTalk](https://arxiv.org/abs/2312.09767)
+ Some code and some figures in the paper are inspired by:
+* [SpeechFormer++](https://arxiv.org/pdf/2302.14638)
+* [Learning Landmarks](https://arxiv.org/pdf/2306.01415)
+* [S2D-Dec](https://arxiv.org/pdf/2105.07463)
 
 The README.md template is borrowed from [SyncTalk](https://github.com/ziqiaopeng/SyncTalk)
 
