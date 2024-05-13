@@ -5,9 +5,9 @@ The official repository of the paper [HSFTalk: Hierarchical Speech Feature-based
   <b>
     <a href="https://arxiv.org/abs/2404.01647">Paper</a>
     | 
-    <a href="https://tanshuai0219.github.io/EDTalk/">Project Page</a>
+    <a href="https://wangryhen.github.io/HSFTalk.github.io/">Project Page</a>
     |
-    <a href="https://github.com/tanshuai0219/EDTalk">Code</a> 
+    <a href="https://wangryhen.github.io/HSFTalk_Anonymous">Code</a> 
   </b>
 </p> 
 
