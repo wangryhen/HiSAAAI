@@ -32,8 +32,8 @@ Given a speech signal as input, our framework <strong>HSFTalk</strong> can gener
 ```
 @article{2024HSFTalk,
   title={HSFTalk: Hierarchical Speech Feature-based Landmark Displacements for 3D Talking Head Animation},
-  author={Zhang, Zixing and Wang, Bin and Zhao, Huanand Schuller, Björn W},
-  year={2024},
+  author={},
+  year={2025},
   eprint={},
   archivePrefix={arXiv},
   primaryClass={cs.CV}
