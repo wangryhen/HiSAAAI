@@ -3,7 +3,7 @@ The official repository of the paper [HSFTalk: Hierarchical Speech Feature-based
 
 <p align='center'>
   <b>
-    <a href="https://arxiv.org/abs/2404.01647">Paper</a>
+    <a href="">Paper</a>
     | 
     <a href="https://wangryhen.github.io/HSFTalk.github.io/">Project Page</a>
     |
