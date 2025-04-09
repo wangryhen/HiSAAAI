@@ -1,5 +1,5 @@
-# HSFTalk: Hierarchical Speech Feature-based Landmark Displacements for 3D Talking Head Animation
-The official repository of the paper [HSFTalk: Hierarchical Speech Feature-based Landmark Displacements for 3D Talking Head Animation](https://arxiv.org/abs/2404.01647)
+# HiSTalk: Hierarchical Speech Feature-based Landmark Displacements for 3D Talking Head Animation
+The official repository of the paper [HiSTalk: Hierarchical Speech Feature-based Landmark Displacements for 3D Talking Head Animation](https://arxiv.org/abs/2404.01647)
 
 <p align='center'>
   <b>
