@@ -7,7 +7,7 @@ The official repository of the paper [HiSTalk: Hierarchical Speech Feature-based
     | 
     <a href="https://wangryhen.github.io/HSFTalk.github.io/">Project Page</a>
     |
-    <a href="[https://github.com/wangryhen/HSFTalk_Anonymous](https://anonymous.4open.science/r/HiSTalk_Anonymous-F78C/README.md)">Code</a> 
+    <a href="https://github.com/wangryhen/HSFTalk_Anonymous">Code</a> 
   </b>
 </p> 
 
