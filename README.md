@@ -5,12 +5,12 @@ The official repository of the paper [HiSTalk: Hierarchical Speech Feature-based
   <b>
     <a href="">Paper</a>
     | 
-    <a href="https://wangryhen.github.io/HSFTalk.github.io/">Project Page</a>
+    <a href="https://anonymous.4open.science/r/HiSTalk_Anonymous-3FDD/README.md">Project Page</a>
     |
     <a href="https://anonymous.4open.science/r/HiSTalk_Anonymous-3FDD/README.md">Code</a> 
   </b>
 </p> 
-
+<!--https://wangryhen.github.io/HSFTalk.github.io/>
 <!-- Colab notebook demonstration: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Egq0_ZK5sJAAawShxC0y4JRZQuVS2X-Z?usp=sharing) -->
 
   <p align='center'>  
