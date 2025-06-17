@@ -30,7 +30,7 @@ Given a speech signal as input, our framework <strong>HiSTalk</strong> can gener
 ## Citation	
 
 ```
-@article{2024histalk,
+@article{2025histalk,
   title={HiSTalk: Hierarchical Speech Feature-based Landmark Displacements for 3D Talking Head Animation},
   author={},
   year={2025},
