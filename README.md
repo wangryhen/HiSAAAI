@@ -68,13 +68,18 @@ Visit the **anonymous** Project Page for interactive demos and supplementary vid
 
 If you use this work, please cite:
 @article{2025histalk,
-title={HiSTalk: Hierarchical Speech Feature-based Landmark Displacements for 3D Talking Head Animation},
-author={Anonymous},
-year={2025},
-eprint={arXiv},
-archivePrefix={arXiv},
-primaryClass={cs.CV}
-}
+
+     title={HiSTalk: Hierarchical Speech Feature-based Landmark Displacements for 3D Talking Head Animation},
+  
+     author={Anonymous},
+  
+     year={2025},
+  
+     eprint={arXiv},
+  
+     archivePrefix={arXiv},
+   
+     primaryClass={cs.CV} }
 
 ---
 
