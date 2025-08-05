@@ -1,60 +1,97 @@
 # HiSTalk: Hierarchical Speech Feature-based Landmark Displacements for 3D Talking Head Animation
-The official repository of the paper [HiSTalk: Hierarchical Speech Feature-based Landmark Displacements for 3D Talking Head Animation](https://anonymous.4open.science/r/HiSAAAI-3212)
 
-<p align='center'>
-  <b>
-    <a href="http://cv2025h.bwbwiwn.site/">Project Page</a>
-  </b>
-</p> 
-<!--https://wangryhen.github.io/HSFTalk.github.io/>
-<!-- Colab notebook demonstration: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Egq0_ZK5sJAAawShxC0y4JRZQuVS2X-Z?usp=sharing) -->
+Official repository for the paper [HiSTalk: Hierarchical Speech Feature-based Landmark Displacements for 3D Talking Head Animation](https://anonymous.4open.science/r/HiSAAAI-3212).
 
-  <p align='center'>  
-    <img src='https://raw.githubusercontent.com/wangryhen/HiSTalk_Anonymous/main/paper_images/framework.png' width='1000'/>
-  </p>
+<p align="center">
+  <a href="http://cv2025h.bwbwiwn.site/">
+    <img src="https://raw.githubusercontent.com/wangryhen/HiSTalk_Anonymous/main/paper_images/framework.png" alt="Framework overview" width="800"/>
+  </a>
+</p>
 
-Given a speech signal as input, our framework <strong>HiSTalk</strong> can generate realistic 3D talking heads through the Hierarchical Speech Features to Sparse Landmarks <strong>(HSF2S)</strong> module and the Sparse Landmarks to Dense Landmarks Displacements <strong>(S2D)</strong> module.
-## Demos
-- Please click the Project Page.
+---
 
+## 🔗 Quick Links
 
-## TODO
-- [x] **Release Arxiv paper.**
-- [x] **Release Project Page.**
-- [ ] **Release code. (Once the paper is accepted)**
-- [ ] **Release Pre-trained Model. (Once the paper is accepted)**
+* **Project Page**: [Live demo & details](http://cv2025h.bwbwiwn.site/)
+* **Paper (arXiv)**: Coming soon.
+* **Colab Demo**: Coming soon
 
+---
 
+## 🔍 Overview
 
-## Citation	
+Given an input speech signal, **HiSTalk** generates lifelike 3D talking-head animations by combining:
 
-```
+1. **Coarse Motion Generator (CMG)**: captures global facial trajectories from multi-scale speech embeddings via a lightweight Transformer.
+2. **Fine Motion Refiner (FMR)**:
+
+   * **HSF2S** (Hierarchical Speech Features → Sparse landmarks): encodes frame-, phoneme-, word-, and utterance-level cues into weighted sparse landmark displacements using a squeeze-and-excitation gating mechanism.
+   * **S2D** (Sparse → Dense): lifts weighted sparse offsets into full-face 3D deformation fields with multi-branch attention-fusion Transformer decoders.
+
+By fusing macro-level guidance with fine-grained refinements, HiSTalk achieves precise lip-sync and rich expressiveness on VOCASET and BIWI benchmarks.
+
+---
+
+## 🎥 Demos
+
+Visit the Project Page for interactive demos and supplementary video: [http://cv2025h.bwbwiwn.site/](http://cv2025h.bwbwiwn.site/)
+
+---
+
+## 📦 Installation
+
+1. Clone the repo:
+    Coming soon
+2. Install dependencies:
+   Coming soon
+
+> **Note**: Official code release pending paper acceptance.
+
+---
+
+## 🚀 Usage
+
+1. Prepare data.
+2. Train.
+3. Inference.
+> **Note**: Official code release pending paper acceptance.
+---
+
+## 📊 Results
+
+| Dataset     | LVE ↓  | FDD ↓  | LRP ↑  |
+| ----------- | ------ | ------ | ------ |
+| VOCASET     | 2.6715 | 3.3657 | 97.21% |
+| BIWI-Test-A | 3.7554 | 2.7129 | 91.92% |
+
+---
+
+## 📖 Citation
+
+If you use this work, please cite:
 @article{2025histalk,
-  title={HiSTalk: Hierarchical Speech Feature-based Landmark Displacements for 3D Talking Head Animation},
-  author={},
-  year={2025},
-  eprint={},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV}
+title={HiSTalk: Hierarchical Speech Feature-based Landmark Displacements for 3D Talking Head Animation},
+author={Anonymous},
+year={2025},
+eprint={arXiv},
+archivePrefix={arXiv},
+primaryClass={cs.CV}
 }
-```
 
+---
 
-## Acknowledgement
-<!-- Some code are borrowed from following projects:
-* [SpeechFormer++](https://github.com/wyhsirius/LIA)
-* [Learning Landmarks](https://github.com/OpenTalker/DPE)
-* [EAT](https://github.com/yuangan/EAT_code)
-* [PD-FGC](https://github.com/Dorniwang/PD-FGC-inference)
-* [Wav2Lip](https://github.com/Rudrabha/Wav2Lip)
-* [FOMM video preprocessing](https://github.com/AliaksandrSiarohin/video-preprocessing) -->
+## 🙏 Acknowledgements
 
- Some code and some figures in the paper are inspired by:
-* [SpeechFormer++](https://arxiv.org/pdf/2302.14638)
-* [Learning Landmarks](https://arxiv.org/pdf/2306.01415)
-* [S2D-Dec](https://arxiv.org/pdf/2105.07463)
+Inspired by and built upon:
 
-The README.md template is borrowed from [SyncTalk](https://github.com/ziqiaopeng/SyncTalk)
+* SpeechFormer++ (Chen et al., 2023)
+* Learning Landmarks (Nocentini et al., 2023)
+* S2D-Dec (author, 2021)
 
+Template courtesy of SyncTalk.
 
-Thanks for these great projects.
+---
+
+## ⚖️ License
+
+This project is released under the MIT License. See LICENSE for details.
