@@ -1,6 +1,6 @@
 # HiSTalk: Hierarchical Speech Feature-based Landmark Displacements for 3D Talking Head Animation
 
-Official repository for the paper [HiSTalk: Hierarchical Speech Feature-based Landmark Displacements for 3D Talking Head Animation](https://anonymous.4open.science/r/HiSAAAI-3212).
+Official repository for the paper [HiSTalk: Hierarchical Speech Feature-based Landmark Displacements for 3D Talking Head Animation](http://cv2025h.bwbwiwn.site/).
 
 <p align="center">
   <a href="http://cv2025h.bwbwiwn.site/">
