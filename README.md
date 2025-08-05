@@ -10,11 +10,11 @@ Official repository for the paper [HiSTalk: Hierarchical Speech Feature-based La
 
 ---
 
-## 🔗 Quick Links
+## 🔗 Quick Links (anonymous)
 
 * **Project Page**: [Live demo & details](http://cv2025h.bwbwiwn.site/)
 * **Paper (arXiv)**: Coming soon.
-* **Colab Demo**: Coming soon
+* **Colab Demo**: Coming soon.
 
 ---
 
@@ -34,16 +34,14 @@ By fusing macro-level guidance with fine-grained refinements, HiSTalk achieves p
 
 ## 🎥 Demos
 
-Visit the Project Page for interactive demos and supplementary video: [http://cv2025h.bwbwiwn.site/](http://cv2025h.bwbwiwn.site/)
+Visit the **anonymous** Project Page for interactive demos and supplementary video: [http://cv2025h.bwbwiwn.site/](http://cv2025h.bwbwiwn.site/)
 
 ---
 
 ## 📦 Installation
 
-1. Clone the repo:
-    Coming soon
-2. Install dependencies:
-   Coming soon
+1. Clone the repo
+2. Install dependencies
 
 > **Note**: Official code release pending paper acceptance.
 
@@ -84,9 +82,9 @@ primaryClass={cs.CV}
 
 Inspired by and built upon:
 
-* SpeechFormer++ (Chen et al., 2023)
-* Learning Landmarks (Nocentini et al., 2023)
-* S2D-Dec (author, 2021)
+* SpeechFormer++ 
+* Learning Landmarks 
+* S2D-Dec
 
 Template courtesy of SyncTalk.
 
