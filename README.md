@@ -14,7 +14,7 @@ The official repository of the paper [HiSTalk: Hierarchical Speech Feature-based
 <!-- Colab notebook demonstration: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Egq0_ZK5sJAAawShxC0y4JRZQuVS2X-Z?usp=sharing) -->
 
   <p align='center'>  
-    <img src='https://raw.githubusercontent.com/wangryhen/HiSTalk_Anonymous/main/paper_images/framework.svg' width='1000'/>
+    <img src='https://raw.githubusercontent.com/wangryhen/HiSTalk_Anonymous/main/paper_images/framework.png' width='1000'/>
   </p>
 
 Given a speech signal as input, our framework <strong>HiSTalk</strong> can generate realistic 3D talking heads through the Hierarchical Speech Features to Sparse Landmarks <strong>(HSF2S)</strong> module and the Sparse Landmarks to Dense Landmarks Displacements <strong>(S2D)</strong> module.
