@@ -3,7 +3,7 @@ The official repository of the paper [HiSTalk: Hierarchical Speech Feature-based
 
 <p align='center'>
   <b>
-    <a href="http://acmmm25h.bwbwiwn.site/">Project Page</a>
+    <a href="http://cv2025h.bwbwiwn.site/">Project Page</a>
     |
     <a href="https://anonymous.4open.science/r/HiSTalk_Anonymous-3FDD/README.md">Code</a> 
   </b>
