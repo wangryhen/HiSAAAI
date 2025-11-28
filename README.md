@@ -10,12 +10,10 @@ Official repository for the paper [HiSTalk: Hierarchical Speech Feature-based La
 
 ---
 
-## 🔗 Quick Links (anonymous)
+## 🔗 Quick Links
 
 * **Project Page**: [Live demo & details](http://cv2025h.bwbwiwn.site/)
-* **Paper (arXiv)**: Coming soon.
-* **Colab Demo**: Coming soon.
-
+* **Code**: Coming soon.
 ---
 
 ## 🔍 Overview
